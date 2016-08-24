@@ -1,0 +1,7 @@
+输入helloWorld步骤
+1。创建一个名为springdemo的工程并在src文件夹下新建一个名为java的源文件
+2。在pom.xml文件里写入所需要的jar包的dependency
+3。在java文件夹下创建一个名为com.tdd的package，并在该文件夹下创建Hello
+   World.java和MainApp.java两个类文件。
+4。在resource文件夹下创建Bean的配置文件Beans.xml
+5。创建所有java文件和Bean的配置文件的内容，然后运行MainApp.java文件。
