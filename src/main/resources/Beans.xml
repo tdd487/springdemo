@@ -6,4 +6,9 @@
     <bean id="helloWorld" class="com.tdd.bean.HelloWorld" init-method="init" destroy-method="destroy">
         <property name="message" value="大家好，我是菜逼！！！"/>
     </bean>
+    <bean id="textEditor" class="com.tdd.bean.TextEditor">
+
+        <constructor-arg ref="spellChecker"/>
+    </bean>
+    <bean id="spellChecker" class="com.tdd.bean.SpellChecker"/>
 </beans>
